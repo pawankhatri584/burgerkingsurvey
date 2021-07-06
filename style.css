@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(https://images.indulgexpress.com/uploads/user/imagelibrary/2021/2/17/original/1mae-mu-I7A_pHLcQK8-unsplash_revised.jpg);
+    padding-bottom: 40px;
+}
 #hero{
     display: flex;
     height: 100vh;
@@ -15,20 +22,19 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://images.indulgexpress.com/uploads/user/imagelibrary/2021/2/17/original/1mae-mu-I7A_pHLcQK8-unsplash_revised.jpg);
     color: white;
     z-index: 2;
 }
 
-#hero::after{
+
+
+body::after{
     left: 0;
     right: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position:fixed;
     background-color: black;
     content: '';
     opacity: .70;
@@ -44,7 +50,7 @@
 }
 
 #qf{
-    [padding-top: 20px;]
+    padding-top: 20px;
 }
 
 #type-of-meal{
