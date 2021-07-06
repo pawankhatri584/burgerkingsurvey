@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Survey Form</title>
+</head>
+
+<!-- Body Section -->
+<!-- Body Section -->
+<div id="hero">
+    <body class="body">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/1200px-Burger_King_2020.svg.png" alt="Burgerking Logo" id="logo">
+        <h1 class="main-title" id="title">
+            BurgerKing Survey Form
+        </h1>
+        <p class="subhead" id="description">
+            We're grateful for your time.
+        </p>
+    
+        <div id="form">
+        <form action="" id="survey-form">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="Name" id="name" placeholder="Enter your Name" required>
+            <br>
+            <label for="email" id="email-label">Email</label> 
+            <input type="email" name="Email" id="email" placeholder="Enter your Email" required>
+            <br>
+            <label id="number-label"for="number">How many in Your Party?</label> 
+            <input type="number" min="1" max="10" name="number" id="number" placeholder="No. of Persons">
+            <br>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            
+            <div id="type-of-meal">
+            <label for="dine">Dine In</label>
+            <input type="radio" name="type" id="dine" value="dine">
+            <label for="takeout">Take Out</label>
+            <input type="radio" name="type" id="takeout" value="takeout">
+            <label for="lunch">Lunch</label>
+            <input type="radio" name="type" id="lunch" value="lunch">
+            <label for="dinner">Dinner</label>
+            <input type="radio" name="type" id="dinner" value="dinner">
+            </div>
+    
+            <h4 id="qf">Quality of Food</h4>
+            <div id="quality" class="ratings">
+                <label for="excellent">Excellent</label>
+                <input type="radio" name="quality" id="excellent" value="excellent">
+                <label for="good">Good</label>
+                <input type="radio" name="quality" id="good" value="good">
+                <label for="fair">Fair</label>
+                <input type="radio" name="quality" id="fair" value="fair">
+                <label for="poor">Poor</label>
+                <input type="radio" name="quality" id="poor" value="poor">
+            </div>
+    
+            <h4>Portion Size</h4>
+            <div id="portion" class="ratings">
+                <label for="excellent">Excellent</label>
+                <input type="radio" name="portion" id="excellent" value="excellent">
+                <label for="good">Good</label>
+                <input type="radio" name="portion" id="good" value="good">
+                <label for="fair">Fair</label>
+                <input type="radio" name="portion" id="fair" value="fair">
+                <label for="poor">Poor</label>
+                <input type="radio" name="portion" id="poor" value="poor">
+            </div>
+    
+            <h4>Service</h4>
+            <div id="service" class="ratings">
+                <label for="excellent">Excellent</label>
+                <input type="radio" name="service" id="excellent" value="excellent">
+                <label for="good">Good</label>
+                <input type="radio" name="service" id="good" value="good">
+                <label for="fair">Fair</label>
+                <input type="radio" name="service" id="fair" value="fair">
+                <label for="poor">Poor</label>
+                <input type="radio" name="service" id="poor" value="poor">
+            </div>
+    
+            <h4>Hygeine</h4>
+            <div id="hygiene" class="ratings">
+                <label for="excellent">Excellent</label>
+                <input type="radio" name="hygiene" id="excellent" value="excellent">
+                <label for="good">Good</label>
+                <input type="radio" name="hygiene" id="good" value="good">
+                <label for="fair">Fair</label>
+                <input type="radio" name="hygiene" id="fair" value="fair">
+                <label for="poor">Poor</label>
+                <input type="radio" name="hygiene" id="poor" value="poor">
+            </div>
+    
+            <h4>Overall Value</h4>
+            <div id="worth" class="ratings">
+                <label for="excellent">Excellent</label>
+                <input type="radio" name="worth" id="excellent" value="excellent">
+                <label for="good">Good</label>
+                <input type="radio" name="worth" id="good" value="good">
+                <label for="fair">Fair</label>
+                <input type="radio" name="worth" id="fair" value="fair">
+                <label for="poor">Poor</label>
+                <input type="radio" name="worth" id="poor" value="poor">
+            </div>
+
+            <div id="stars" class="ratings">
+            <label for="rating">How Many Stars?</label>
+            <select id="dropdown" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+            </div>
+            
+            <h4>What Could Be Improved?</h4>
+            <div id="improve" class="ratings">
+            <input type="checkbox" id="waiting" name="improve" value="waiting">
+            <label for="waiting"> Waiting Time</label><br>
+            <input type="checkbox" id="ambience" name="improve" value="ambience">
+            <label for="ambience"> Ambience</label><br>
+            <input type="checkbox" id="taste" name="improve" value="taste">
+            <label for="taste"> Taste</label><br>
+            </div>
+
+            <label for="comments">Comments or Suggestions</label>
+            <br>
+            <textarea name="comments" rows="04"></textarea>
+            <br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        </div>
+    </body>
+    </div>
+    <!-- End of Body Section -->
+<!-- End of Body Section -->
